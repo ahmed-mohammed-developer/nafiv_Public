@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+body {
+     font-family: 'Tajawal', sans-serif;
+}
+
+.box {
+     box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+     background-color: #fafafa !important;
+}
+a {
+    text-decoration: none;
+}
+.box .navbar-brand {
+     font-weight: 800;
+     font-size: 3.5rem;
+     color: #11998e;
+     margin-left: 0;
+}
+.box-3 {
+     border: 0 !important;
+     box-shadow: none !important;
+}
+.navbar-toggler-icon {
+     font-size: 1.8rem;
+ }
+
+@media (width < 576px) {
+     .box-2  {
+          display: none;
+     }
+     .box-4 {
+          border-top: 1px solid #ecedf2;
+          border-bottom: 1px solid #ecedf2;
+          margin-bottom: 5px;
+     }
+     .box-4 a {
+          margin-block: 15px;
+}
+}
+.head-top {
+     text-align: center;
+     margin-top: 100px;
+     font-weight: 800;
+     font-size: 28px;
+     line-height: 42px;
+     color: #11998e;
+}
+section .box-head {
+     height: 63px;
+     color: white;
+     background-color: #11998e;
+     padding: 15px;
+     border-radius: 10px;
+     text-align: center;
+     font-size: 15px;
+     font-weight: 800;
+}
+.btn-primary {
+     background-color: #11998e !important;
+}
+.card-img-top {
+     margin-inline: auto;
+     display: block;
+     padding-top: 10px;
+}
